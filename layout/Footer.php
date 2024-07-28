@@ -1,0 +1,1 @@
+<footer class="text-footer"> <!-- JS --> </footer>
