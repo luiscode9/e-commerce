@@ -127,7 +127,7 @@ function openModal(product) {
       <button type="button" class="btn btn-cart-add" id="${product.id}">
           Agregar <i class="fas fa-shopping-cart"></i>
       </button>
-        <a href="./cart.php" type="button" class="atn a-cart-buy">
+        <a href="./cart.html" type="button" class="atn a-cart-buy">
          Comprar
        </a>
   </div>
