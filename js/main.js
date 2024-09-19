@@ -1,5 +1,5 @@
 let products = [],
-  companyName = "BCompany";
+  companyName = "BStudio";
 
 fetch("./js/allProducts.json")
   .then((response) => response.json())
