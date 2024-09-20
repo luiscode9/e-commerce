@@ -211,15 +211,16 @@ aside {
 }
 
 .res-number {
+  width: 16.5px;
   position: absolute;
   top: 0;
-  right: -2px;
+  right: -3px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 0.65rem;
   font-weight: 500;
-  padding: 1.5px 5.5px;
+  padding: 1px;
   border-radius: var(--b-round);
   background-color: var(--clr-orange);
   color: var(--clr-aside);
@@ -288,8 +289,8 @@ main {
   background: var(--clr-shine-aside);
   color: var(--clr-white);
   padding: 0.8rem;
-  border-bottom-left-radius: var(--b-radius);
-  border-bottom-right-radius: var(--b-radius);
+  border-bottom-left-radius: 0.30rem;
+  border-bottom-right-radius: 0.30rem;
   position: relative;
   display: flex;
   flex-direction: column;
