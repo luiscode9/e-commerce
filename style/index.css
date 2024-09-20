@@ -289,8 +289,8 @@ main {
   background: var(--clr-shine-aside);
   color: var(--clr-white);
   padding: 0.8rem;
-  border-bottom-left-radius: 0.30rem;
-  border-bottom-right-radius: 0.30rem;
+  border-bottom-left-radius: 0.39rem;
+  border-bottom-right-radius: 0.39rem;
   position: relative;
   display: flex;
   flex-direction: column;
