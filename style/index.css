@@ -676,7 +676,7 @@ main {
   color: var(--clr-whiteish);
   font-size: 0.8rem;
   border-radius: none;
-  border: 0;
+  border: 0 !important;
   outline: none;
   border-bottom: 1px solid var(--clr-whiteish);
   transition: 0.4s;
