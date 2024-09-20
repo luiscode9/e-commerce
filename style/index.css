@@ -682,8 +682,9 @@ main {
   border-left: 1px solid var(--clr-aside);
   border-right: 1px solid var(--clr-aside);
   border-bottom: 1px solid var(--clr-whiteish);
-  transition: 0.4s;
   background: var(--clr-aside);
+  transition: 0.4s;
+  opacity: 0;
 }
 
 .res-search-box input::placeholder {
@@ -692,7 +693,8 @@ main {
 }
 
 .res-search-box input.slide {
-  width: 7rem;
+  opacity: 1;
+  width: 8rem;
   padding: 0 0 0 4px;
 }
 
