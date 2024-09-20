@@ -677,10 +677,6 @@ main {
   font-size: 0.8rem;
   border-radius: none;
   outline: none;
-  border-radius: 0 !important;
-  border-top: 1px solid var(--clr-aside);
-  border-left: 1px solid var(--clr-aside);
-  border-right: 1px solid var(--clr-aside);
   border-bottom: 1px solid var(--clr-whiteish);
   transition: 0.4s;
   background: var(--clr-aside);
