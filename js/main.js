@@ -240,7 +240,7 @@ const goTopBtn = document.querySelector(".go-top-btn");
 window.addEventListener("scroll", checkScroll);
 
 function checkScroll() {
-  if (window.scrollY > 700) {
+  if (window.scrollY > 4000) {
     goTopBtn.classList.add("show");
   } else {
     goTopBtn.classList.remove("show");

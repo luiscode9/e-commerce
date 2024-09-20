@@ -83,7 +83,7 @@
   font-size: 1.5rem;
   position: absolute;
   top: -0.7rem;
-  right: -0.7rem;
+  right: -0.9rem;
   border: 0;
   background-color: var(--clr-whiteish);
   color: var(--clr-red);
@@ -241,13 +241,13 @@
 
   .cart-total {
     border-top-left-radius: var(--b-radius);
+    border-top-right-radius: 0 !important;
     border-bottom-left-radius: var(--b-radius);
     border-top-right-radius: 0;
   }
 
   .btn.btn-cart-buy {
-    border-top-right-radius: var(--b-radius);
-    border-top-left-radius: 0;
+    border-top-right-radius: var(--b-radius) !important;
     border-bottom-left-radius: 0;
   }
 
