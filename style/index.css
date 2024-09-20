@@ -677,13 +677,13 @@ main {
   font-size: 0.8rem;
   border-radius: none;
   outline: none;
-  border-radius: none !important;
+  border-radius: 0 !important;
   border-top: 1px solid var(--clr-aside);
   border-left: 1px solid var(--clr-aside);
   border-right: 1px solid var(--clr-aside);
   border-bottom: 1px solid var(--clr-whiteish);
   transition: 0.4s;
-  background: transparent;
+  background: var(--clr-aside);
 }
 
 .res-search-box input::placeholder {
@@ -692,7 +692,7 @@ main {
 }
 
 .res-search-box input.slide {
-  width: 8rem;
+  width: 7.5rem;
   padding: 0 0 0 4px;
 }
 
