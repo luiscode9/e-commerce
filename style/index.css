@@ -289,8 +289,8 @@ main {
   background: var(--clr-shine-aside);
   color: var(--clr-white);
   padding: 0.8rem;
-  border-bottom-left-radius: 0.39rem;
-  border-bottom-right-radius: 0.39rem;
+  border-bottom-left-radius: 0.37rem;
+  border-bottom-right-radius: 0.37rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -503,10 +503,12 @@ main {
 }
 
 .product-detail h3 {
+  display: none;
   color: var(--clr-mate);
 }
 
 .product-detail p {
+  display: none;
   font-size: 0.9rem;
   padding: 0.3rem;
   opacity: 0.8;
@@ -764,6 +766,14 @@ main {
     padding: 0;
     background-color: transparent;
     border: 0;
+  }
+
+  .product-detail h3 {
+    display: block;
+  }
+  
+  .product-detail p {
+    display: block;
   }
 }
 
