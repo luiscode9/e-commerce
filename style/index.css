@@ -406,7 +406,7 @@ main {
 
 .img-display {
   overflow: hidden;
-  width: 100%;
+  width: 99%;
   border-radius: var(--b-radius-xs);
 }
 
@@ -457,7 +457,7 @@ main {
   font-weight: 700;
   position: relative;
   color: var(--clr-mate);
-  margin: 1rem 0;
+  margin: 0.3rem 0;
 }
 
 .product-title {
@@ -547,7 +547,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.1rem 1rem;
+  padding: 0.1rem 0.7rem;
   border-bottom: 1px solid var(--clr-mate);
 }
 
