@@ -90,10 +90,19 @@ function deleteCart(e) {
   const idBtn = e.currentTarget.id;
   const index = productsCart.findIndex((product) => product.id == idBtn);
 
-  productsCart.splice(index, 1);
-  loadProductsCart();
+  if (index !== -1) {
+    const cartProduct = e.currentTarget.closest(".cart-product");
+    cartProduct.classList.add("hide");
 
-  localStorage.setItem("products-in-cart", JSON.stringify(productsCart));
+    setTimeout(() => {
+      productsCart.splice(index, 1);
+      loadProductsCart();
+
+      localStorage.setItem("products-in-cart", JSON.stringify(productsCart));
+
+      cartProduct.remove();
+    }, 300);
+  }
 }
 
 btnEmpty.addEventListener("click", emptyCart);

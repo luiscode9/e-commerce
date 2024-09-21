@@ -189,8 +189,8 @@ aside {
 
 /*---------------------------------------------------------*/
 
-.btn-category > .bi-hand-index-thumb-fill,
-.btn-category > .ri-arrow-up-wide-line {
+.btn-category>.bi-hand-index-thumb-fill,
+.btn-category>.ri-arrow-up-wide-line {
   transform: rotateZ(90deg);
 }
 
@@ -692,7 +692,8 @@ main {
 }
 
 .res-search-box input::placeholder {
-  font-size: 0.8rem;;
+  font-size: 0.8rem;
+  ;
   color: var(--clr-main);
 }
 
@@ -776,7 +777,7 @@ main {
   .product-detail h3 {
     display: block;
   }
-  
+
   .product-detail p {
     display: block;
   }

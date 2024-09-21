@@ -25,6 +25,12 @@
   padding: 0.6rem 0 0.6rem 0.6rem;
   border-radius: var(--b-radius);
   column-gap: 1rem;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.cart-product.hide {
+  opacity: 0;
+  transform: translateY(-20px);
 }
 
 .cart-div {
